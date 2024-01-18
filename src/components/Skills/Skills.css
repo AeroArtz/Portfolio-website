@@ -1,0 +1,22 @@
+.skills-content{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    margin: 0.7rem;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #070707;
+    font-weight: 400;
+    border: 2px solid #73D9EF;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+.skills-content:hover{
+    box-shadow: 0 5px 20px 0 #73D9EF, 0 5px 20px 0 #73D9EF,
+    0 5px 20px 0 #73D9EF, 0 5px 20px 0 #73D9EF;
+}

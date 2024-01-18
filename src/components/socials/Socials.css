@@ -1,0 +1,53 @@
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+    
+   
+}
+
+.insta{
+    color: #73D9EF;
+    font-size: 3rem;
+}
+
+.yt{
+    color: #73D9EF;
+    font-size: 3rem;
+}
+
+.git{
+    color: #73D9EF;
+    font-size: 3rem;
+}
+
+.twitter{
+    color: #73D9EF;
+    font-size: 3rem;
+}
+
+@media (max-width : 465px) {
+    .insta{
+        color: #73D9EF;
+        font-size: 2rem;
+    }
+    
+    .yt{
+        color: #73D9EF;
+        font-size: 2rem;
+    }
+    
+    .git{
+        color: #73D9EF;
+        font-size: 2rem;
+    }
+    
+    .twitter{
+        color: #73D9EF;
+        font-size: 2rem;
+    }
+}
