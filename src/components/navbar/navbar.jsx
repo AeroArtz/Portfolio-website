@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import './navbar.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { RxHamburgerMenu } from "react-icons/rx";
-import { MobileNav } from '../mobileNav/mobileNav';
+import { MobileNav } from '../mobileNav/MobileNav';
 
 const Navbar = () => {
   const [openMenu, SetOpenMenu] = useState(false);
