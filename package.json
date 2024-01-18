@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/AeroArtz/Portfolio-website",
+  "homepage": "https://AeroArtz.github.io/Portfolio-website",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
