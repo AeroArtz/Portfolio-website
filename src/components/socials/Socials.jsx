@@ -12,21 +12,22 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 export const Socials = () => {
   return (
     <div className='icons-container'>
-        <AnchorLink>
-          <LuInstagram href='https://www.instagram.com/aero.artz/' className='insta' />
-        </AnchorLink>
+        <a href='https://www.instagram.com/aero.artz/'>
+          <LuInstagram className='insta' />
+          </a>
+        
+          <a href='https://www.youtube.com/channel/UCXC-_XlmDYSca3cOYCauWxw'>
+          <CiYoutube className='yt'/>
+          </a>
+       
 
-        <AnchorLink>
-          <CiYoutube href='https://www.youtube.com/channel/UCXC-_XlmDYSca3cOYCauWxw' className='yt'/>
-        </AnchorLink>
+        <a href='https://github.com/AeroArtz'>
+          <FaGithub className='git' />
+        </a>
 
-        <AnchorLink>
-          <FaGithub href='https://github.com/AeroArtz' className='git' />
-        </AnchorLink>
-
-        <AnchorLink>
-          <FaXTwitter href='https://twitter.com/AbdulIkram12228' className='twitter'/>
-        </AnchorLink>
+        <a href='https://twitter.com/AbdulIkram12228'>
+          <FaXTwitter className='twitter'/>
+        </a>
 
     </div>
   )
