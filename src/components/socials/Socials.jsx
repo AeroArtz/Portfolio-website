@@ -13,19 +13,19 @@ export const Socials = () => {
   return (
     <div className='icons-container'>
         <AnchorLink>
-          <LuInstagram href='' className='insta' />
+          <LuInstagram href='https://www.instagram.com/aero.artz/' className='insta' />
         </AnchorLink>
 
         <AnchorLink>
-          <CiYoutube href='' className='yt'/>
+          <CiYoutube href='https://www.youtube.com/channel/UCXC-_XlmDYSca3cOYCauWxw' className='yt'/>
         </AnchorLink>
 
         <AnchorLink>
-          <FaGithub href='' className='git' />
+          <FaGithub href='https://github.com/AeroArtz' className='git' />
         </AnchorLink>
 
         <AnchorLink>
-          <FaXTwitter href='' className='twitter'/>
+          <FaXTwitter href='https://twitter.com/AbdulIkram12228' className='twitter'/>
         </AnchorLink>
 
     </div>
