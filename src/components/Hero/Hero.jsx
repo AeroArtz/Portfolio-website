@@ -52,7 +52,7 @@ function Hero() {
         <h2 id='nameTitle'>
             ABDUL REHMAN
         </h2>
-        <p id='roles'>Entrepreneur | Software developer  | Artist | Content Creator </p>
+        <p id='roles'>Software developer  | Artist | Content Creator </p>
         <p>I write code to turn ideas into reality. Here you can explore my journey</p>
         
         <div className='button-container'>
