@@ -18,6 +18,26 @@ function App() {
       desc : 'Built a ChatPDF application to interact with user uploaded documents using LLMs'
     },
     {
+      title : 'A.I Virtual Assistant Jarvis',
+      date : '1 Jan 2022',
+      desc : 'Built a virtual assistant for the disabled to carry out tasks to use a computer system eg. adjust system settings, open/close applications'
+    },
+    {
+      title : 'E-Commerce Marketplace',
+      date : '1 Feb 2024',
+      desc : 'Built a Full Stack Multi-vendor Marketplace to connect buyer and sellers'
+    },
+    {
+      title : 'AI powered Lesson planner',
+      date : '1 Jul 2024',
+      desc : 'Built a lesson planner for teachers using Gemini 1.5 Flash'
+    },
+        {
+      title : 'DeFi StableCoin',
+      date : '1 Mar 2024',
+      desc : 'Built a decentralized stable coin that tokenized a real world asset (US Dollar) using Solidity'
+    },
+    {
       title : 'Handwritten Digits Classifier',
       date : '20 May 2023',
       desc : 'Built a neural network from scratch to classify handwritten digit images'
@@ -25,7 +45,7 @@ function App() {
     {
       title : 'Property Price Predictor',
       date : '10 May 2023',
-      desc : 'Built a linear regression mdoel from scratch to predict property price'
+      desc : 'Built a linear regression mdoel from scratch to predict property prices'
     },
     {
       title : 'Sign Language Recognition',
@@ -38,9 +58,14 @@ function App() {
       desc : 'Built a crypto news app using React Native'
     },
     {
-      title : 'Shopiy App',
+      title : 'Movie Explorer App',
       date : '1 May 2023',
-      desc : 'Built a Shopify web app to facilate local delivery'
+      desc : 'Built a an app to browse movies using React Native'
+    },
+    {
+      title : 'Shopify App',
+      date : '1 May 2023',
+      desc : 'Built a Shopify web app to facilitate local delivery'
     },
     {
       title : 'Art Portfolio',
@@ -49,7 +74,7 @@ function App() {
     }
   ]);
   const [skills,setSkills] = useState([
-    'Python', 'JavaScript', 'React', 'NodeJS','HTML', 'CSS', 'Deep Learning', 'Machine Learning'
+    'Python', 'JavaScript', 'React', 'NodeJS','NextJS','Tailwind','MySQL','PostgreSQL','MongoDB','HTML', 'CSS', 'Deep Learning', 'Machine Learning'
   ]);
   const sliderRef = useRef();
 
