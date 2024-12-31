@@ -13,6 +13,26 @@ import { Socials } from './components/socials/Socials';
 function App() {
   const [projects,SetProjects] = useState([
     {
+     title : 'Video to mp3 Audio converter',
+     date : '30 dec 2024',
+     desc : 'Built a video to mp3 converter using a event driven simple microservices architecture with python Flask, MySQL, JWT authentication, docker and kubernetes'
+    },
+    {
+      title: 'Servphere',
+      date: '1 Dec 2024',
+      desc: 'Built an all in one store builder to allow businesses to seamlessly list thier services, streamline bookings, and reach new clients all through a single portal'
+    },
+    {
+      title: 'Malware classification',
+      date: '20 Nov 2024',
+      desc: 'Malware classification with User Interface to upload files and uses Machine Learning algorithms to determine whether file contains malware or not. '
+    },
+    {
+      title: 'Data architecture ',
+      date: '28 Nov 2024',
+      desc: 'end to end data solution for a logistics company using Microsoft Azure cloud services'
+    },
+    {
       title : 'ChatPDF using LangChain',
       date : '1 May 2023',
       desc : 'Built a ChatPDF application to interact with user uploaded documents using LLMs'
@@ -74,7 +94,7 @@ function App() {
     }
   ]);
   const [skills,setSkills] = useState([
-    'Python', 'JavaScript', 'React', 'NodeJS','NextJS','Tailwind','MySQL','PostgreSQL','MongoDB','HTML', 'CSS', 'Deep Learning', 'Machine Learning'
+    'Python', 'JavaScript', 'React','NextJS','Tailwind','MySQL','PostgreSQL','MongoDB','ORMs','AWS','Azure','Docker', 'kubernetes','HTML', 'CSS', 'Deep Learning', 'Machine Learning'
   ]);
   const sliderRef = useRef();
 
